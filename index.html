@@ -97,7 +97,7 @@ body::before{
 .hero-inner{position:relative;z-index:2;padding:0 24px;text-align:center;display:flex;flex-direction:column;align-items:center;}
 .hero-eyebrow{
   font-family:'Cinzel','Noto Serif TC',serif;font-size:11px;letter-spacing:7px;
-  color:var(--gold);text-transform:uppercase;margin-bottom:28px;
+  color:var(--gold);text-transform:uppercase;margin-bottom:28px;position:relative;top:15px;
   opacity:0;animation:fu .8s .3s forwards;
 }
 .hero-eyebrow::before,.hero-eyebrow::after{content:'✦';margin:0 14px;font-size:7px;vertical-align:middle;opacity:.6;}
@@ -969,6 +969,7 @@ body.wine-champ .sub-tab.active{color:var(--champ-light);border-bottom-color:var
     <div class="hero-ov"></div>
     <div class="hero-inner">
       
+      <div class="hero-eyebrow">Fine Wine</div>
       <div class="hero-title">Wine &amp; <em>Champagne</em></div>
       <div class="hero-sub">A Collector's Complete Guide · 從歷史到投資</div>
       <button class="hero-cta" onclick="goChoose()">開始探索 ✦</button>
@@ -1305,8 +1306,8 @@ body.wine-champ .sub-tab.active{color:var(--champ-light);border-bottom-color:var
 
     <!-- Title between chandelier and barrels -->
     <text x="400" y="181" text-anchor="middle" font-family="Cinzel,'Noto Serif TC',serif" font-size="11" font-weight="400" fill="rgba(201,168,76,.6)" letter-spacing="0.5" font-style="italic"><tspan x="400" dy="0">"A bottle of wine contains more philosophy</tspan><tspan x="400" dy="16">than all the books in the world." —— Louis Pasteur</tspan></text>
-    <text x="400" y="225" text-anchor="middle" font-family="Cormorant Garamond,'Noto Serif TC',serif" font-size="30" font-weight="500" letter-spacing="2" font-weight="300" fill="#f0e6cc">選擇你想<tspan fill="#e8cc7a">深入了解</tspan>的酒款</text>
-    <text x="400" y="251" text-anchor="middle" font-family="Cinzel,'Noto Serif TC',serif" font-size="13" font-weight="500" letter-spacing="3" fill="rgba(201,168,76,.4)" letter-spacing="3">點擊進入學習</text>
+    <text x="400" y="235" text-anchor="middle" font-family="Cormorant Garamond,'Noto Serif TC',serif" font-size="30" font-weight="500" letter-spacing="2" font-weight="300" fill="#f0e6cc">選擇你想<tspan fill="#e8cc7a">深入了解</tspan>的酒款</text>
+    <text x="400" y="256" text-anchor="middle" font-family="Cinzel,'Noto Serif TC',serif" font-size="11" font-weight="500" letter-spacing="3" fill="rgba(201,168,76,.4)" letter-spacing="3">點擊進入學習</text>
     <g transform="translate(0,0)">
     <g transform="translate(105,505)"    opacity="0.72">
   <circle cx="0" cy="0" r="90" fill="#2e1808"/>
