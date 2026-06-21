@@ -3,7 +3,9 @@
 <html lang="zh-TW">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <title>Wine & Champagne Guide</title>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Cinzel:wght@400;600;700&family=Noto+Serif+TC:wght@300;400;600&display=swap" rel="stylesheet">
 <style>
@@ -94,13 +96,13 @@ body::before{
 }
 .hero-inner{position:relative;z-index:2;padding:0 24px;text-align:center;display:flex;flex-direction:column;align-items:center;}
 .hero-eyebrow{
-  font-family:'Cinzel',serif;font-size:11px;letter-spacing:7px;
+  font-family:'Cinzel','Noto Serif TC',serif;font-size:11px;letter-spacing:7px;
   color:var(--gold);text-transform:uppercase;margin-bottom:28px;
   opacity:0;animation:fu .8s .3s forwards;
 }
 .hero-eyebrow::before,.hero-eyebrow::after{content:'✦';margin:0 14px;font-size:7px;vertical-align:middle;opacity:.6;}
 .hero-title{
-  font-family:'Cormorant Garamond',serif;
+  font-family:'Cormorant Garamond','Noto Serif TC',serif;
   font-size:clamp(42px,7vw,96px);font-weight:300;line-height:1;
   color:#fff;letter-spacing:-1px;margin-bottom:16px;
   opacity:0;animation:fu 1s .5s forwards;
@@ -108,12 +110,12 @@ body::before{
 }
 .hero-title em{font-style:italic;color:var(--gold-light);}
 .hero-sub{
-  font-family:'Cinzel',serif;font-size:clamp(10px,1.4vw,13px);
+  font-family:'Cinzel','Noto Serif TC',serif;font-size:clamp(10px,1.4vw,13px);
   letter-spacing:5px;color:rgba(232,204,122,.65);
   margin-bottom:64px;opacity:0;animation:fu .8s .7s forwards;
 }
 .hero-cta{
-  font-family:'Cinzel',serif;font-size:12px;letter-spacing:3px;
+  font-family:'Cinzel','Noto Serif TC',serif;font-size:12px;letter-spacing:3px;
   color:var(--gold);text-transform:uppercase;cursor:pointer;
   border:1px solid rgba(201,168,76,.5);padding:14px 36px;
   background:transparent;transition:all .3s;
@@ -123,7 +125,7 @@ body::before{
 .hero-scroll{
   position:absolute;bottom:36px;left:50%;transform:translateX(-50%);
   z-index:2;display:flex;flex-direction:column;align-items:center;gap:8px;
-  font-family:'Cinzel',serif;font-size:9px;letter-spacing:3px;
+  font-family:'Cinzel','Noto Serif TC',serif;font-size:9px;letter-spacing:3px;
   color:rgba(201,168,76,.4);animation:fi 1s 2s both;
 }
 .scroll-ln{
@@ -141,12 +143,12 @@ body::before{
   max-width:1100px;margin:0 auto;
 }
 .sec-label{
-  font-family:'Cinzel',serif;font-size:10px;font-weight:600;
+  font-family:'Cinzel','Noto Serif TC',serif;font-size:10px;font-weight:600;
   letter-spacing:6px;color:var(--gold);text-transform:uppercase;
   margin-bottom:12px;
 }
 .sec-title{
-  font-family:'Cormorant Garamond',serif;
+  font-family:'Cormorant Garamond','Noto Serif TC',serif;
   font-size:clamp(34px,4vw,58px);font-weight:300;
   line-height:1.15;color:#f5e8cc;margin-bottom:48px;
   text-shadow:0 2px 40px rgba(180,120,20,.15);
@@ -164,7 +166,7 @@ body::before{
 }
 .tl-item.vis{opacity:1;transform:translateX(0);}
 .tl-yr{
-  font-family:'Cormorant Garamond',serif;font-size:13px;font-style:italic;
+  font-family:'Cormorant Garamond','Noto Serif TC',serif;font-size:13px;font-style:italic;
   color:var(--gold);text-align:right;padding-top:3px;
 }
 .tl-dot{
@@ -187,13 +189,13 @@ body::before{
   background:#3a2208;
 }
 .choose-title{
-  font-family:'Cormorant Garamond',serif;
+  font-family:'Cormorant Garamond','Noto Serif TC',serif;
   font-size:clamp(32px,5vw,64px);font-weight:300;
   color:#fff;text-align:center;margin-bottom:12px;
 }
 .choose-title em{font-style:italic;color:var(--gold-light);}
 .choose-sub{
-  font-family:'Cinzel',serif;font-size:10px;letter-spacing:5px;
+  font-family:'Cinzel','Noto Serif TC',serif;font-size:10px;letter-spacing:5px;
   color:rgba(201,168,76,.55);text-transform:uppercase;
   text-align:center;margin-bottom:72px;
 }
@@ -221,18 +223,18 @@ body::before{
 .wine-card-content{position:relative;z-index:2;}
 .wine-card-icon{font-size:32px;margin-bottom:16px;display:block;}
 .wine-card-label{
-  font-family:'Cinzel',serif;font-size:10px;letter-spacing:4px;
+  font-family:'Cinzel','Noto Serif TC',serif;font-size:10px;letter-spacing:4px;
   text-transform:uppercase;margin-bottom:10px;
 }
 .wine-card-name{
-  font-family:'Cormorant Garamond',serif;
+  font-family:'Cormorant Garamond','Noto Serif TC',serif;
   font-size:42px;font-weight:300;line-height:1;
   color:#fff;margin-bottom:14px;
 }
 .wine-card-desc{font-size:13px;line-height:1.85;color:rgba(242,234,216,.7);margin-bottom:24px;}
 .wine-card-btn{
   display:inline-flex;align-items:center;gap:10px;
-  font-family:'Cinzel',serif;font-size:10px;letter-spacing:3px;
+  font-family:'Cinzel','Noto Serif TC',serif;font-size:10px;letter-spacing:3px;
   text-transform:uppercase;padding:10px 20px;
   border:1px solid;transition:all .3s;
 }
@@ -268,18 +270,18 @@ body::before{
 }
 .detail-back{
   position:absolute;top:28px;left:40px;z-index:3;
-  font-family:'Cinzel',serif;font-size:10px;letter-spacing:3px;
+  font-family:'Cinzel','Noto Serif TC',serif;font-size:10px;letter-spacing:3px;
   color:rgba(201,168,76,.7);cursor:pointer;background:none;border:none;
   transition:color .2s;display:flex;align-items:center;gap:8px;
 }
 .detail-back:hover{color:var(--gold);}
 .detail-hero-content{position:relative;z-index:2;}
 .detail-type-label{
-  font-family:'Cinzel',serif;font-size:10px;letter-spacing:5px;
+  font-family:'Cinzel','Noto Serif TC',serif;font-size:10px;letter-spacing:5px;
   text-transform:uppercase;margin-bottom:10px;
 }
 .detail-wine-name{
-  font-family:'Cormorant Garamond',serif;
+  font-family:'Cormorant Garamond','Noto Serif TC',serif;
   font-size:clamp(48px,7vw,90px);font-weight:300;
   line-height:.92;color:#fff;
 }
@@ -295,7 +297,7 @@ body::before{
   padding:0 40px;gap:0;
 }
 .sub-tab{
-  font-family:'Cinzel',serif;font-size:10px;font-weight:600;
+  font-family:'Cinzel','Noto Serif TC',serif;font-size:10px;font-weight:600;
   letter-spacing:2px;text-transform:uppercase;white-space:nowrap;
   padding:18px 24px;color:rgba(201,168,76,.45);
   cursor:pointer;border-bottom:2px solid transparent;
@@ -320,7 +322,7 @@ body::before{
 .info-card:hover{background:rgba(201,168,76,.05);}
 .info-card-icon{font-size:26px;margin-bottom:14px;display:block;}
 .info-card h4{
-  font-family:'Cinzel',serif;font-size:11px;letter-spacing:2px;
+  font-family:'Cinzel','Noto Serif TC',serif;font-size:11px;letter-spacing:2px;
   color:var(--gold);text-transform:uppercase;margin-bottom:10px;
 }
 .info-card p{font-size:14px;line-height:1.95;color:rgba(242,234,216,.68);}
@@ -336,7 +338,7 @@ body::before{
 .step-num{
   background:rgba(201,168,76,.08);
   display:flex;align-items:center;justify-content:center;
-  font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:300;
+  font-family:'Cormorant Garamond','Noto Serif TC',serif;font-size:28px;font-weight:300;
   color:rgba(201,168,76,.4);border-right:1px solid var(--border);
 }
 .step-body{padding:24px 28px;}
@@ -352,12 +354,12 @@ body::before{
 }
 .brand-row:hover{background:rgba(70,40,5,.6);transform:translateX(5px);}
 .brand-row:hover .br-arrow{opacity:1;transform:translateX(0);}
-.br-num{font-family:'Cinzel',serif;font-size:11px;color:rgba(201,168,76,.4);font-weight:600;}
+.br-num{font-family:'Cinzel','Noto Serif TC',serif;font-size:11px;color:rgba(201,168,76,.4);font-weight:600;}
 .br-name{font-size:16px;font-weight:600;color:var(--cream);}
-.br-origin{font-family:'Cinzel',serif;font-size:10px;letter-spacing:1px;color:rgba(201,168,76,.5);margin-top:2px;}
+.br-origin{font-family:'Cinzel','Noto Serif TC',serif;font-size:10px;letter-spacing:1px;color:rgba(201,168,76,.5);margin-top:2px;}
 .br-desc{font-size:13px;line-height:1.8;color:rgba(242,234,216,.6);}
 .br-badge{
-  font-family:'Cinzel',serif;font-size:9px;letter-spacing:2px;
+  font-family:'Cinzel','Noto Serif TC',serif;font-size:9px;letter-spacing:2px;
   padding:5px 12px;text-transform:uppercase;white-space:nowrap;
 }
 .br-arrow{font-size:18px;color:var(--gold);opacity:0;transform:translateX(-6px);transition:all .25s;}
@@ -373,7 +375,7 @@ body::before{
 }
 .vint-card:hover::after{transform:scaleX(1);}
 .vint-year{
-  font-family:'Cormorant Garamond',serif;font-size:52px;
+  font-family:'Cormorant Garamond','Noto Serif TC',serif;font-size:52px;
   font-weight:300;line-height:1;margin-bottom:8px;
 }
 .vint-name{font-size:14px;font-weight:600;color:var(--cream);margin-bottom:8px;}
@@ -388,7 +390,7 @@ body::before{
 .food-card:hover{background:rgba(201,168,76,.05);transform:translateY(-3px);}
 .food-emoji{font-size:36px;margin-bottom:14px;display:block;}
 .food-card h4{
-  font-family:'Cinzel',serif;font-size:11px;letter-spacing:2px;
+  font-family:'Cinzel','Noto Serif TC',serif;font-size:11px;letter-spacing:2px;
   color:var(--gold);text-transform:uppercase;margin-bottom:8px;
 }
 .food-card p{font-size:13px;line-height:1.8;color:rgba(242,234,216,.65);}
@@ -401,7 +403,7 @@ body::before{
 }
 .etq-item:hover{background:rgba(201,168,76,.04);}
 .etq-num{
-  font-family:'Cormorant Garamond',serif;font-size:36px;font-weight:300;
+  font-family:'Cormorant Garamond','Noto Serif TC',serif;font-size:36px;font-weight:300;
   color:rgba(201,168,76,.25);flex-shrink:0;line-height:1;
 }
 .etq-body h4{font-size:15px;font-weight:600;color:var(--cream);margin-bottom:6px;}
@@ -414,7 +416,7 @@ body::before{
 }
 .inv-card:hover{background:rgba(85,48,10,.65);}
 .inv-card h4{
-  font-family:'Cinzel',serif;font-size:11px;letter-spacing:2px;
+  font-family:'Cinzel','Noto Serif TC',serif;font-size:11px;letter-spacing:2px;
   color:var(--gold);text-transform:uppercase;margin-bottom:14px;
 }
 .inv-card p{font-size:14px;line-height:1.95;color:rgba(242,234,216,.68);}
@@ -467,13 +469,13 @@ body.wine-champ .sub-tab.active{color:var(--champ-light);border-bottom-color:var
 .modal-hd-text{min-width:0;flex:1;}
 .modal-hd-logo{display:flex;align-items:center;justify-content:center;padding:12px 14px;background:rgba(255,255,255,.05);border:1px solid rgba(201,168,76,.15);border-radius:4px;min-height:100px;width:160px;flex-shrink:0;}
 .modal-hd-logo img{max-width:140px;max-height:75px;object-fit:contain;filter:invert(1) brightness(2);}
-.modal-hd-logo-ph{font-family:'Cormorant Garamond',serif;font-size:44px;font-weight:300;color:var(--gold);opacity:.5;}
+.modal-hd-logo-ph{font-family:'Cormorant Garamond','Noto Serif TC',serif;font-size:44px;font-weight:300;color:var(--gold);opacity:.5;}
 .modal-hd h2{
-  font-family:'Cormorant Garamond',serif;
+  font-family:'Cormorant Garamond','Noto Serif TC',serif;
   font-size:34px;font-weight:300;color:#fff;
 }
 .modal-hd .ms{
-  font-family:'Cinzel',serif;font-size:10px;letter-spacing:4px;
+  font-family:'Cinzel','Noto Serif TC',serif;font-size:10px;letter-spacing:4px;
   color:var(--gold);text-transform:uppercase;margin-top:5px;
 }
 .modal-x{
@@ -487,7 +489,7 @@ body.wine-champ .sub-tab.active{color:var(--champ-light);border-bottom-color:var
 .modal-body{padding:28px 36px 36px;}
 .modal-sec{margin-bottom:22px;}
 .modal-sec h4{
-  font-family:'Cinzel',serif;font-size:9px;letter-spacing:4px;
+  font-family:'Cinzel','Noto Serif TC',serif;font-size:9px;letter-spacing:4px;
   color:var(--gold);text-transform:uppercase;
   margin-bottom:10px;padding-bottom:7px;
   border-bottom:1px solid rgba(201,168,76,.13);
@@ -495,13 +497,13 @@ body.wine-champ .sub-tab.active{color:var(--champ-light);border-bottom-color:var
 .modal-sec p{font-size:14px;line-height:2;color:rgba(242,234,216,.72);}
 .modal-tags{display:flex;flex-wrap:wrap;gap:8px;}
 .modal-tag{
-  font-family:'Cinzel',serif;font-size:10px;letter-spacing:1px;
+  font-family:'Cinzel','Noto Serif TC',serif;font-size:10px;letter-spacing:1px;
   padding:5px 13px;border:1px solid var(--border);
   color:var(--gold-light);background:rgba(201,168,76,.06);
 }
 .modal-meta{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--border);border:1px solid var(--border);margin-top:8px;}
 .mm-cell{background:var(--ink2);padding:14px 18px;}
-.mm-key{font-family:'Cinzel',serif;font-size:9px;letter-spacing:2px;color:rgba(201,168,76,.55);text-transform:uppercase;margin-bottom:4px;}
+.mm-key{font-family:'Cinzel','Noto Serif TC',serif;font-size:9px;letter-spacing:2px;color:rgba(201,168,76,.55);text-transform:uppercase;margin-bottom:4px;}
 .mm-val{font-size:14px;color:var(--cream);font-weight:600;}
 
 /* nav top */
@@ -515,7 +517,7 @@ body.wine-champ .sub-tab.active{color:var(--champ-light);border-bottom-color:var
   height:52px;
 }
 .top-nav-logo{
-  font-family:'Cormorant Garamond',serif;font-style:italic;
+  font-family:'Cormorant Garamond','Noto Serif TC',serif;font-style:italic;
   font-size:18px;color:var(--gold);cursor:pointer;
   white-space:nowrap;padding-right:16px;flex-shrink:0;letter-spacing:.5px;
 }
@@ -528,7 +530,7 @@ body.wine-champ .sub-tab.active{color:var(--champ-light);border-bottom-color:var
   margin:0 4px;flex-shrink:0;
 }
 .top-nav-link{
-  font-family:'Cinzel',serif;font-size:10px;letter-spacing:1.5px;
+  font-family:'Cinzel','Noto Serif TC',serif;font-size:10px;letter-spacing:1.5px;
   color:rgba(201,168,76,.5);text-transform:uppercase;cursor:pointer;
   background:none;border:none;transition:color .2s;
   text-decoration:none;white-space:nowrap;
@@ -568,7 +570,7 @@ body.wine-champ .sub-tab.active{color:var(--champ-light);border-bottom-color:var
 /* ── brand logo & Chinese name ── */
 .br-logo{width:42px;height:42px;border-radius:50%;background:rgba(255,255,255,.1);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;overflow:hidden;flex-shrink:0;}
 .br-logo img{width:28px;height:28px;object-fit:contain;}
-.br-logo-ph{font-family:'Cormorant Garamond',serif;font-size:13px;font-style:italic;color:var(--gold);font-weight:600;text-align:center;line-height:1.1;}
+.br-logo-ph{font-family:'Cormorant Garamond','Noto Serif TC',serif;font-size:13px;font-style:italic;color:var(--gold);font-weight:600;text-align:center;line-height:1.1;}
 .br-zh{font-size:11px;color:rgba(201,168,76,.65);margin-top:2px;letter-spacing:.5px;}
 .modal-logo-wrap{display:flex;align-items:center;gap:16px;margin-bottom:6px;}
 .modal-logo{display:none;}
@@ -576,11 +578,11 @@ body.wine-champ .sub-tab.active{color:var(--champ-light);border-bottom-color:var
 .modal-inner-layout{display:grid;grid-template-columns:1fr 220px;gap:32px;align-items:start;}
 .modal-right-logo{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px 16px;background:rgba(255,255,255,.04);border:1px solid rgba(201,168,76,.15);border-radius:4px;min-height:200px;}
 .modal-right-logo img{max-width:180px;max-height:200px;object-fit:contain;filter:drop-shadow(0 4px 16px rgba(0,0,0,.4));}
-.modal-right-logo-ph{font-family:'Cormorant Garamond',serif;font-size:72px;font-weight:300;color:var(--gold);opacity:.5;}
-.modal-right-brand-name{font-family:'Cinzel',serif;font-size:9px;letter-spacing:3px;color:rgba(201,168,76,.5);text-transform:uppercase;margin-top:12px;text-align:center;}
-.modal-logo-ph{font-family:'Cormorant Garamond',serif;font-size:18px;font-style:italic;color:var(--gold);font-weight:600;}
+.modal-right-logo-ph{font-family:'Cormorant Garamond','Noto Serif TC',serif;font-size:72px;font-weight:300;color:var(--gold);opacity:.5;}
+.modal-right-brand-name{font-family:'Cinzel','Noto Serif TC',serif;font-size:9px;letter-spacing:3px;color:rgba(201,168,76,.5);text-transform:uppercase;margin-top:12px;text-align:center;}
+.modal-logo-ph{font-family:'Cormorant Garamond','Noto Serif TC',serif;font-size:18px;font-style:italic;color:var(--gold);font-weight:600;}
 .modal-zh{font-family:'Noto Serif TC',serif;font-size:15px;color:rgba(201,168,76,.75);margin-bottom:2px;}
-.modal-visit{display:inline-flex;align-items:center;gap:8px;margin-top:18px;font-family:'Cinzel',serif;font-size:10px;letter-spacing:3px;text-transform:uppercase;padding:11px 22px;border:1px solid var(--border);color:var(--gold-light);background:rgba(201,168,76,.06);text-decoration:none;transition:all .25s;}
+.modal-visit{display:inline-flex;align-items:center;gap:8px;margin-top:18px;font-family:'Cinzel','Noto Serif TC',serif;font-size:10px;letter-spacing:3px;text-transform:uppercase;padding:11px 22px;border:1px solid var(--border);color:var(--gold-light);background:rgba(201,168,76,.06);text-decoration:none;transition:all .25s;}
 .modal-visit:hover{background:rgba(201,168,76,.16);border-color:var(--gold);color:#fff;}
 .brand-row{grid-template-columns:56px 56px 180px 1fr auto auto;}
 @media(max-width:860px){.brand-row{grid-template-columns:36px 36px 1fr auto;}.br-desc,.br-badge{display:none;}}
@@ -593,11 +595,11 @@ body.wine-champ .sub-tab.active{color:var(--champ-light);border-bottom-color:var
 .vint-rec{padding:14px 16px;background:rgba(100,60,10,.35);border:1px solid rgba(201,168,76,.25);}
 .vint-rec-name{font-size:14px;font-weight:600;color:var(--cream);margin-bottom:4px;}
 .vint-rec-note{font-size:12px;color:rgba(242,234,216,.6);line-height:1.7;}
-.vint-rec-price{font-family:'Cinzel',serif;font-size:10px;letter-spacing:2px;color:var(--gold);margin-top:6px;}
+.vint-rec-price{font-family:'Cinzel','Noto Serif TC',serif;font-size:10px;letter-spacing:2px;color:var(--gold);margin-top:6px;}
 /* ── food pairing SVG layout ── */
 .food-pairing-wrap{margin-top:40px;}
 .food-section{margin-bottom:44px;}
-.food-section-title{font-family:'Cinzel',serif;font-size:11px;letter-spacing:4px;color:var(--gold);text-transform:uppercase;margin-bottom:20px;padding-bottom:10px;border-bottom:1px solid var(--border);}
+.food-section-title{font-family:'Cinzel','Noto Serif TC',serif;font-size:11px;letter-spacing:4px;color:var(--gold);text-transform:uppercase;margin-bottom:20px;padding-bottom:10px;border-bottom:1px solid var(--border);}
 .food-rows{display:flex;flex-direction:column;gap:2px;}
 .food-row{display:grid;grid-template-columns:88px 1fr;gap:0;border:1px solid rgba(201,168,76,.18);background:rgba(30,18,3,.4);transition:background .25s;}
 .food-row:hover{background:rgba(85,48,10,.65);}
@@ -652,10 +654,10 @@ body.wine-champ .sub-tab.active{color:var(--champ-light);border-bottom-color:var
 .wcwa-ov{position:absolute;inset:0;background:linear-gradient(to top,rgba(8,2,5,.95) 0%,rgba(8,2,5,.55) 55%,rgba(8,2,5,.2) 100%);}
 .wcwa-content{position:relative;z-index:2;}
 .wcwa-icon{font-size:28px;margin-bottom:12px;display:block;}
-.wcwa-label{font-family:'Cinzel',serif;font-size:10px;letter-spacing:4px;text-transform:uppercase;margin-bottom:8px;}
-.wcwa-name{font-family:'Cormorant Garamond',serif;font-size:38px;font-weight:300;line-height:1;color:#fff;margin-bottom:10px;}
+.wcwa-label{font-family:'Cinzel','Noto Serif TC',serif;font-size:10px;letter-spacing:4px;text-transform:uppercase;margin-bottom:8px;}
+.wcwa-name{font-family:'Cormorant Garamond','Noto Serif TC',serif;font-size:38px;font-weight:300;line-height:1;color:#fff;margin-bottom:10px;}
 .wcwa-desc{font-size:13px;line-height:1.85;color:rgba(242,234,216,.7);margin-bottom:20px;}
-.wcwa-btn{display:inline-flex;align-items:center;gap:8px;font-family:'Cinzel',serif;font-size:10px;letter-spacing:3px;text-transform:uppercase;padding:10px 18px;border:1px solid;transition:all .3s;}
+.wcwa-btn{display:inline-flex;align-items:center;gap:8px;font-family:'Cinzel','Noto Serif TC',serif;font-size:10px;letter-spacing:3px;text-transform:uppercase;padding:10px 18px;border:1px solid;transition:all .3s;}
 .wcwa-art{
   width:160px;flex-shrink:0;
   display:flex;align-items:center;justify-content:center;
@@ -690,18 +692,18 @@ body.wine-champ .sub-tab.active{color:var(--champ-light);border-bottom-color:var
 }
 .barrel-header{text-align:center;margin-bottom:56px;}
 .barrel-eyebrow{
-  font-family:'Cinzel',serif;font-size:10px;letter-spacing:6px;
+  font-family:'Cinzel','Noto Serif TC',serif;font-size:10px;letter-spacing:6px;
   color:rgba(201,168,76,.6);text-transform:uppercase;margin-bottom:16px;
 }
 .barrel-eyebrow::before,.barrel-eyebrow::after{content:'✦';margin:0 12px;font-size:7px;opacity:.6;}
 .barrel-title{
-  font-family:'Cormorant Garamond',serif;
+  font-family:'Cormorant Garamond','Noto Serif TC',serif;
   font-size:clamp(30px,5vw,56px);font-weight:300;
   color:#f0e6cc;margin-bottom:12px;line-height:1.2;
 }
 .barrel-title em{font-style:italic;color:var(--gold-light);}
 .barrel-sub{
-  font-family:'Cinzel',serif;font-size:10px;letter-spacing:4px;
+  font-family:'Cinzel','Noto Serif TC',serif;font-size:10px;letter-spacing:4px;
   color:rgba(201,168,76,.45);text-transform:uppercase;
 }
 .barrel-row{
@@ -728,7 +730,7 @@ body.wine-champ .sub-tab.active{color:var(--champ-light);border-bottom-color:var
 }
 .barrel-wine-en{
   display:block;
-  font-family:'Cinzel',serif;font-size:11px;font-weight:600;
+  font-family:'Cinzel','Noto Serif TC',serif;font-size:11px;font-weight:600;
   letter-spacing:4px;color:var(--gold);text-transform:uppercase;
   margin-bottom:6px;
 }
@@ -764,18 +766,18 @@ body.wine-champ .sub-tab.active{color:var(--champ-light);border-bottom-color:var
 }
 .cellar-header{text-align:center;margin-bottom:40px;}
 .cellar-eyebrow{
-  font-family:'Cinzel',serif;font-size:10px;letter-spacing:6px;
+  font-family:'Cinzel','Noto Serif TC',serif;font-size:10px;letter-spacing:6px;
   color:rgba(201,168,76,.55);text-transform:uppercase;margin-bottom:14px;
 }
 .cellar-title{
-  font-family:'Cormorant Garamond',serif;
+  font-family:'Cormorant Garamond','Noto Serif TC',serif;
   font-size:clamp(28px,4.5vw,52px);font-weight:300;
   color:#f0e6cc;margin-bottom:10px;line-height:1.2;
   text-shadow:0 2px 30px rgba(180,110,20,.2);
 }
 .cellar-title em{font-style:italic;color:var(--gold-light);}
 .cellar-sub{
-  font-family:'Cinzel',serif;font-size:9px;letter-spacing:4px;
+  font-family:'Cinzel','Noto Serif TC',serif;font-size:9px;letter-spacing:4px;
   color:rgba(201,168,76,.4);text-transform:uppercase;
 }
 .cellar-wall-wrap{
@@ -899,7 +901,7 @@ body.wine-champ .sub-tab.active{color:var(--champ-light);border-bottom-color:var
 .search-icon{color:rgba(201,168,76,.5);font-size:18px;}
 .search-input{
   flex:1;background:none;border:none;outline:none;
-  font-family:'Cinzel',serif;font-size:15px;
+  font-family:'Cinzel','Noto Serif TC',serif;font-size:15px;
   color:#f0e6cc;letter-spacing:1px;
 }
 .search-input::placeholder{color:rgba(201,168,76,.3);}
@@ -920,21 +922,21 @@ body.wine-champ .sub-tab.active{color:var(--champ-light);border-bottom-color:var
 .search-result-item:last-child{border-bottom:none;}
 .sr-icon{font-size:20px;width:28px;flex-shrink:0;text-align:center;}
 .sr-main{flex:1;min-width:0;}
-.sr-name{font-family:'Cormorant Garamond',serif;font-size:16px;font-weight:300;color:#f0e6cc;}
-.sr-sub{font-family:'Cinzel',serif;font-size:9px;letter-spacing:2px;color:rgba(201,168,76,.55);margin-top:3px;}
+.sr-name{font-family:'Cormorant Garamond','Noto Serif TC',serif;font-size:16px;font-weight:300;color:#f0e6cc;}
+.sr-sub{font-family:'Cinzel','Noto Serif TC',serif;font-size:9px;letter-spacing:2px;color:rgba(201,168,76,.55);margin-top:3px;}
 .sr-tag{
-  font-family:'Cinzel',serif;font-size:8px;letter-spacing:1px;
+  font-family:'Cinzel','Noto Serif TC',serif;font-size:8px;letter-spacing:1px;
   padding:3px 8px;border:1px solid rgba(201,168,76,.25);
   color:rgba(201,168,76,.6);border-radius:2px;white-space:nowrap;
 }
 .search-empty{
   padding:40px 20px;text-align:center;
-  font-family:'Cinzel',serif;font-size:10px;letter-spacing:3px;
+  font-family:'Cinzel','Noto Serif TC',serif;font-size:10px;letter-spacing:3px;
   color:rgba(201,168,76,.3);
 }
 .search-hint{
   padding:12px 20px;
-  font-family:'Cinzel',serif;font-size:9px;letter-spacing:2px;
+  font-family:'Cinzel','Noto Serif TC',serif;font-size:9px;letter-spacing:2px;
   color:rgba(201,168,76,.25);text-align:center;
 }
 </style>
@@ -1302,9 +1304,9 @@ body.wine-champ .sub-tab.active{color:var(--champ-light);border-bottom-color:var
 <path d="M646 445 L648 445 L639.0 419 L627.0 419Z" fill="#7a4818" opacity=".4"/>
 
     <!-- Title between chandelier and barrels -->
-    <text x="400" y="190" text-anchor="middle" font-family="Cinzel,serif" font-size="11" font-weight="400" fill="rgba(201,168,76,.6)" letter-spacing="0.5" font-style="italic">"A bottle of wine contains more philosophy than all the books in the world." —— Louis Pasteur</text>
-    <text x="400" y="225" text-anchor="middle" font-family="Cormorant Garamond,serif" font-size="30" font-weight="500" letter-spacing="2" font-weight="300" fill="#f0e6cc">選擇你想<tspan font-style="italic" fill="#e8cc7a">深入了解</tspan>的酒款</text>
-    <text x="400" y="251" text-anchor="middle" font-family="Cinzel,serif" font-size="13" font-weight="500" letter-spacing="3" fill="rgba(201,168,76,.4)" letter-spacing="3">點擊進入學習</text>
+    <text x="400" y="190" text-anchor="middle" font-family="Cinzel,'Noto Serif TC',serif" font-size="11" font-weight="400" fill="rgba(201,168,76,.6)" letter-spacing="0.5" font-style="italic">"A bottle of wine contains more philosophy than all the books in the world." —— Louis Pasteur</text>
+    <text x="400" y="225" text-anchor="middle" font-family="Cormorant Garamond,'Noto Serif TC',serif" font-size="30" font-weight="500" letter-spacing="2" font-weight="300" fill="#f0e6cc">選擇你想<tspan font-style="italic" fill="#e8cc7a">深入了解</tspan>的酒款</text>
+    <text x="400" y="251" text-anchor="middle" font-family="Cinzel,'Noto Serif TC',serif" font-size="13" font-weight="500" letter-spacing="3" fill="rgba(201,168,76,.4)" letter-spacing="3">點擊進入學習</text>
     <g transform="translate(0,0)">
     <g transform="translate(105,505)"    opacity="0.72">
   <circle cx="0" cy="0" r="90" fill="#2e1808"/>
@@ -1645,9 +1647,9 @@ body.wine-champ .sub-tab.active{color:var(--champ-light);border-bottom-color:var
   <line x1="298.0" y1="334" x2="306.0" y2="334" stroke="rgba(212,185,50,0.65)" stroke-width="1"/>
   <ellipse cx="302" cy="386" rx="3" ry="2" fill="rgba(0,0,0,0.3)"/>
   <rect x="294" y="360" width="16" height="14" rx="1" fill="#d4c860" opacity=".9"/>
-  <text x="302" y="364" text-anchor="middle" font-family="serif" font-size="3.5" fill="#1a1800">DOM</text>
-  <text x="302" y="368" text-anchor="middle" font-family="serif" font-size="3.0" fill="#2a2600">PÉRIGNON</text>
-  <text x="302" y="371" text-anchor="middle" font-family="serif" font-size="3.0" fill="#2a2600">2013</text>
+  <text x="302" y="364" text-anchor="middle" font-family="'Noto Serif TC',serif" font-size="3.5" fill="#1a1800">DOM</text>
+  <text x="302" y="368" text-anchor="middle" font-family="'Noto Serif TC',serif" font-size="3.0" fill="#2a2600">PÉRIGNON</text>
+  <text x="302" y="371" text-anchor="middle" font-family="'Noto Serif TC',serif" font-size="3.0" fill="#2a2600">2013</text>
 </g>
 <g>
   <path d="M330.5 384 Q330.5 387 333.5 387 L342.5 387 Q345.5 387 345.5 384 L344.5 356 L331.5 356Z" fill="#081e0a"/>
@@ -1661,9 +1663,9 @@ body.wine-champ .sub-tab.active{color:var(--champ-light);border-bottom-color:var
   <line x1="334.0" y1="334" x2="342.0" y2="334" stroke="rgba(212,185,50,0.65)" stroke-width="1"/>
   <ellipse cx="338" cy="386" rx="3" ry="2" fill="rgba(0,0,0,0.3)"/>
   <rect x="330" y="360" width="16" height="14" rx="1" fill="#d4c860" opacity=".9"/>
-  <text x="338" y="364" text-anchor="middle" font-family="serif" font-size="3.5" fill="#1a1800">DOM</text>
-  <text x="338" y="368" text-anchor="middle" font-family="serif" font-size="3.0" fill="#2a2600">PÉRIGNON</text>
-  <text x="338" y="371" text-anchor="middle" font-family="serif" font-size="3.0" fill="#2a2600">2013</text>
+  <text x="338" y="364" text-anchor="middle" font-family="'Noto Serif TC',serif" font-size="3.5" fill="#1a1800">DOM</text>
+  <text x="338" y="368" text-anchor="middle" font-family="'Noto Serif TC',serif" font-size="3.0" fill="#2a2600">PÉRIGNON</text>
+  <text x="338" y="371" text-anchor="middle" font-family="'Noto Serif TC',serif" font-size="3.0" fill="#2a2600">2013</text>
 </g>
 <g>
   <path d="M226.5 500 L226.5 534 Q226.5 537 229.5 537 L236.5 537 Q239.5 537 239.5 534 L239.5 500Z" fill="#0d0204"/>
@@ -1673,9 +1675,9 @@ body.wine-champ .sub-tab.active{color:var(--champ-light);border-bottom-color:var
   <line x1="228.5" y1="480" x2="237.5" y2="480" stroke="rgba(220,180,60,0.55)" stroke-width="0.9"/>
   <ellipse cx="233" cy="536" rx="2" ry="2" fill="rgba(0,0,0,0.35)"/>
   <rect x="228" y="505" width="10" height="16" rx="1" fill="#f2e8d0" opacity=".94"/>
-  <text x="233" y="510" text-anchor="middle" font-family="serif" font-size="3.5" fill="#5a1020">CHÂTEAU</text>
-  <text x="233" y="514" text-anchor="middle" font-family="serif" font-size="3.0" fill="#6a1828">POMEROL</text>
-  <text x="233" y="518" text-anchor="middle" font-family="serif" font-size="3.0" fill="#5a1420">2018</text>
+  <text x="233" y="510" text-anchor="middle" font-family="'Noto Serif TC',serif" font-size="3.5" fill="#5a1020">CHÂTEAU</text>
+  <text x="233" y="514" text-anchor="middle" font-family="'Noto Serif TC',serif" font-size="3.0" fill="#6a1828">POMEROL</text>
+  <text x="233" y="518" text-anchor="middle" font-family="'Noto Serif TC',serif" font-size="3.0" fill="#5a1420">2018</text>
 </g>
 <g>
   <path d="M266.5 500 L266.5 534 Q266.5 537 269.5 537 L276.5 537 Q279.5 537 279.5 534 L279.5 500Z" fill="#0d0204"/>
@@ -1685,9 +1687,9 @@ body.wine-champ .sub-tab.active{color:var(--champ-light);border-bottom-color:var
   <line x1="268.5" y1="480" x2="277.5" y2="480" stroke="rgba(220,180,60,0.55)" stroke-width="0.9"/>
   <ellipse cx="273" cy="536" rx="2" ry="2" fill="rgba(0,0,0,0.35)"/>
   <rect x="268" y="505" width="10" height="16" rx="1" fill="#f2e8d0" opacity=".94"/>
-  <text x="273" y="510" text-anchor="middle" font-family="serif" font-size="3.5" fill="#5a1020">CHÂTEAU</text>
-  <text x="273" y="514" text-anchor="middle" font-family="serif" font-size="3.0" fill="#6a1828">POMEROL</text>
-  <text x="273" y="518" text-anchor="middle" font-family="serif" font-size="3.0" fill="#5a1420">2018</text>
+  <text x="273" y="510" text-anchor="middle" font-family="'Noto Serif TC',serif" font-size="3.5" fill="#5a1020">CHÂTEAU</text>
+  <text x="273" y="514" text-anchor="middle" font-family="'Noto Serif TC',serif" font-size="3.0" fill="#6a1828">POMEROL</text>
+  <text x="273" y="518" text-anchor="middle" font-family="'Noto Serif TC',serif" font-size="3.0" fill="#5a1420">2018</text>
 </g>
 <g>
   <path d="M522.5 502 L522.5 534 Q522.5 537 525.5 537 L532.5 537 Q535.5 537 535.5 534 L535.5 502Z" fill="#0a0e18"/>
@@ -1697,9 +1699,9 @@ body.wine-champ .sub-tab.active{color:var(--champ-light);border-bottom-color:var
   <line x1="524.5" y1="482" x2="533.5" y2="482" stroke="rgba(180,155,60,0.6)" stroke-width="0.9"/>
   <ellipse cx="529" cy="536" rx="2" ry="2" fill="rgba(0,0,0,0.35)"/>
   <rect x="524" y="507" width="10" height="15" rx="1" fill="#f2ede0" opacity=".94"/>
-  <text x="529" y="511" text-anchor="middle" font-family="serif" font-size="3.2" fill="#2a2808">DOMAINE</text>
-  <text x="529" y="515" text-anchor="middle" font-family="serif" font-size="3.0" fill="#3a3010">LEFLAIVE</text>
-  <text x="529" y="519" text-anchor="middle" font-family="serif" font-size="3.0" fill="#3a3010">2019</text>
+  <text x="529" y="511" text-anchor="middle" font-family="'Noto Serif TC',serif" font-size="3.2" fill="#2a2808">DOMAINE</text>
+  <text x="529" y="515" text-anchor="middle" font-family="'Noto Serif TC',serif" font-size="3.0" fill="#3a3010">LEFLAIVE</text>
+  <text x="529" y="519" text-anchor="middle" font-family="'Noto Serif TC',serif" font-size="3.0" fill="#3a3010">2019</text>
 </g>
 <g>
   <path d="M560.5 502 L560.5 534 Q560.5 537 563.5 537 L570.5 537 Q573.5 537 573.5 534 L573.5 502Z" fill="#0a0e18"/>
@@ -1709,15 +1711,15 @@ body.wine-champ .sub-tab.active{color:var(--champ-light);border-bottom-color:var
   <line x1="562.5" y1="482" x2="571.5" y2="482" stroke="rgba(180,155,60,0.6)" stroke-width="0.9"/>
   <ellipse cx="567" cy="536" rx="2" ry="2" fill="rgba(0,0,0,0.35)"/>
   <rect x="562" y="507" width="10" height="15" rx="1" fill="#f2ede0" opacity=".94"/>
-  <text x="567" y="511" text-anchor="middle" font-family="serif" font-size="3.2" fill="#2a2808">DOMAINE</text>
-  <text x="567" y="515" text-anchor="middle" font-family="serif" font-size="3.0" fill="#3a3010">LEFLAIVE</text>
-  <text x="567" y="519" text-anchor="middle" font-family="serif" font-size="3.0" fill="#3a3010">2019</text>
+  <text x="567" y="511" text-anchor="middle" font-family="'Noto Serif TC',serif" font-size="3.2" fill="#2a2808">DOMAINE</text>
+  <text x="567" y="515" text-anchor="middle" font-family="'Noto Serif TC',serif" font-size="3.0" fill="#3a3010">LEFLAIVE</text>
+  <text x="567" y="519" text-anchor="middle" font-family="'Noto Serif TC',serif" font-size="3.0" fill="#3a3010">2019</text>
 </g>
 
     <!-- LABELS -->
-    <text x="320" y="320" text-anchor="middle" font-family="Cinzel,serif" font-size="8.5" fill="#e8cc7a" letter-spacing="1.5" opacity=".92">CHAMPAGNE · 香檳</text>
-    <text x="253" y="466" text-anchor="middle" font-family="Cinzel,serif" font-size="8.5" fill="#c94060" letter-spacing="1.5" opacity=".92">RED WINE · 紅酒</text>
-    <text x="547" y="468" text-anchor="middle" font-family="Cinzel,serif" font-size="8.5" fill="#d4b96a" letter-spacing="1.5" opacity=".92">WHITE WINE · 白酒</text>
+    <text x="320" y="320" text-anchor="middle" font-family="Cinzel,'Noto Serif TC',serif" font-size="8.5" fill="#e8cc7a" letter-spacing="1.5" opacity=".92">CHAMPAGNE · 香檳</text>
+    <text x="253" y="466" text-anchor="middle" font-family="Cinzel,'Noto Serif TC',serif" font-size="8.5" fill="#c94060" letter-spacing="1.5" opacity=".92">RED WINE · 紅酒</text>
+    <text x="547" y="468" text-anchor="middle" font-family="Cinzel,'Noto Serif TC',serif" font-size="8.5" fill="#d4b96a" letter-spacing="1.5" opacity=".92">WHITE WINE · 白酒</text>
   </g>
   </svg>
   </div>
@@ -2318,7 +2320,7 @@ function buildContent(tab){
   else if(tab==='brands'){
     html = `<div class="sec-label">品牌 · Brands</div>
             <h2 class="sec-title">值得了解的<em>頂尖酒莊</em></h2>
-            <p style="font-size:13px;color:rgba(242,234,216,.5);font-family:'Cinzel',serif;letter-spacing:1px;margin-bottom:8px">點擊任一品牌查看詳細介紹</p>
+            <p style="font-size:13px;color:rgba(242,234,216,.5);font-family:'Cinzel','Noto Serif TC',serif;letter-spacing:1px;margin-bottom:8px">點擊任一品牌查看詳細介紹</p>
             <div class="brand-rows">${d.brands.map((b,i)=>`
               <div class="brand-row" onclick="openBrandModal(${i})">
                 <div class="br-num">${b.num}</div>
@@ -2341,13 +2343,13 @@ function buildContent(tab){
   else if(tab==='vintages'){
     html = `<div class="sec-label">經典年份 · Vintages</div>
             <h2 class="sec-title">必知的<em>傳奇年份</em></h2>
-            <p style="font-size:13px;color:rgba(242,234,216,.5);font-family:'Cinzel',serif;letter-spacing:1px;margin-bottom:8px">點擊年份卡片查看推薦酒款</p>
+            <p style="font-size:13px;color:rgba(242,234,216,.5);font-family:'Cinzel','Noto Serif TC',serif;letter-spacing:1px;margin-bottom:8px">點擊年份卡片查看推薦酒款</p>
             <div class="vintage-grid">${d.vintages.map(v=>`
               <div class="vint-card" onclick="openVintModal('${v.year}','${v.name.replace(/'/g,"\\'")}','${v.color}')">
                 <div class="vint-year" style="color:${v.color}40">${v.year}</div>
                 <div class="vint-name" style="color:${v.color}">${v.name}</div>
                 <p class="vint-desc">${v.desc}</p>
-                <div style="margin-top:12px;font-family:'Cinzel',serif;font-size:10px;letter-spacing:2px;color:${v.color};opacity:.7">查看推薦酒款 ›</div>
+                <div style="margin-top:12px;font-family:'Cinzel','Noto Serif TC',serif;font-size:10px;letter-spacing:2px;color:${v.color};opacity:.7">查看推薦酒款 ›</div>
               </div>`).join('')}
             </div>`;
   }
@@ -2395,7 +2397,7 @@ function buildContent(tab){
     html = `<div class="sec-label">投資策略 · Investment</div>
             <h2 class="sec-title">葡萄酒作為<em>另類資產</em></h2>
             <div class="invest-flow">
-              <div style="font-family:'Cinzel',serif;font-size:10px;letter-spacing:4px;color:var(--gold);text-transform:uppercase;margin-bottom:16px">投資決策流程 · Decision Flowchart</div>
+              <div style="font-family:'Cinzel','Noto Serif TC',serif;font-size:10px;letter-spacing:4px;color:var(--gold);text-transform:uppercase;margin-bottom:16px">投資決策流程 · Decision Flowchart</div>
               <div class="flow-svg-wrap">${flowSvg}</div>
             </div>
             <div class="invest-grid">${d.invest.map((v,i)=>`
@@ -2497,17 +2499,17 @@ function flowBox(x,y,text,sub,color='#c9a84c',fill='rgba(201,168,76,0.1)'){
   const lines=text.split('\n');
   const textY=sub?(y+BOX_H/2-6):(y+BOX_H/2+5);
   return `<rect x="${x}" y="${y}" width="${BOX_W}" height="${BOX_H}" rx="${R}" fill="${fill}" stroke="${color}" stroke-width="1.2"/>
-    ${lines.map((l,i)=>`<text x="${x+BOX_W/2}" y="${textY+(i-((lines.length-1)/2))*16}" text-anchor="middle" font-family="'Cinzel',serif" font-size="11" fill="${color}" font-weight="600">${l}</text>`).join('')}
+    ${lines.map((l,i)=>`<text x="${x+BOX_W/2}" y="${textY+(i-((lines.length-1)/2))*16}" text-anchor="middle" font-family="'Cinzel','Noto Serif TC',serif" font-size="11" fill="${color}" font-weight="600">${l}</text>`).join('')}
     ${sub?`<text x="${x+BOX_W/2}" y="${y+BOX_H/2+14}" text-anchor="middle" font-family="'Noto Serif TC',serif" font-size="10" fill="rgba(242,234,216,0.55)">${sub}</text>`:''}`;
 }
 function flowArrow(x1,y1,x2,y2,label=''){
   const mx=(x1+x2)/2,my=(y1+y2)/2;
   return `<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="rgba(201,168,76,0.45)" stroke-width="1.2" marker-end="url(#arr)"/>
-    ${label?`<text x="${mx+6}" y="${my}" font-family="'Cinzel',serif" font-size="9" fill="rgba(201,168,76,0.6)" text-anchor="start">${label}</text>`:''}`;
+    ${label?`<text x="${mx+6}" y="${my}" font-family="'Cinzel','Noto Serif TC',serif" font-size="9" fill="rgba(201,168,76,0.6)" text-anchor="start">${label}</text>`:''}`;
 }
 function flowArrowH(x1,y,x2,label=''){
   return `<line x1="${x1}" y1="${y}" x2="${x2}" y2="${y}" stroke="rgba(201,168,76,0.45)" stroke-width="1.2" marker-end="url(#arr)"/>
-    ${label?`<text x="${(x1+x2)/2}" y="${y-6}" font-family="'Cinzel',serif" font-size="9" fill="rgba(201,168,76,0.6)" text-anchor="middle">${label}</text>`:''}`;
+    ${label?`<text x="${(x1+x2)/2}" y="${y-6}" font-family="'Cinzel','Noto Serif TC',serif" font-size="9" fill="rgba(201,168,76,0.6)" text-anchor="middle">${label}</text>`:''}`;
 }
 const ARR_DEF=`<defs><marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="rgba(201,168,76,0.7)"/></marker></defs>`;
 
@@ -2539,7 +2541,7 @@ const redFlow=(()=>{
   s+=flowArrowH(cols[2]+BOX_W,r2y+BOX_H/2,cols[3],'');
   s+=flowBox(cols[3],r2y,'獲利出場','拍賣/私下轉讓');
 
-  s+=`<text x="430" y="${r3y+10}" text-anchor="middle" font-family="'Cinzel',serif" font-size="10" fill="rgba(201,168,76,0.5)" letter-spacing="2">KEY RULES</text>`;
+  s+=`<text x="430" y="${r3y+10}" text-anchor="middle" font-family="'Cinzel','Noto Serif TC',serif" font-size="10" fill="rgba(201,168,76,0.5)" letter-spacing="2">KEY RULES</text>`;
   const rules=[['OWC原裝木箱','保存完整度+20%估值'],['來源可信度','Provenance是核心'],['液位管理','Ullage越低越折價'],['分散持有','單一莊不超過30%']];
   rules.forEach((r,i)=>{s+=flowBox(20+i*210,r3y+18,r[0],r[1],'rgba(201,168,76,0.5)','rgba(201,168,76,0.04)');});
   return makeSvg(W,H,s);
@@ -2613,8 +2615,8 @@ function openVintModal(year, name, color){
   const logoBox = document.getElementById('moLogoBox');
   if(logoBox){ logoBox.style.display = 'flex'; logoBox.innerHTML = ''; logoBox.style.display = 'none'; }
   document.getElementById('moTitle').innerHTML = `
-    <div style="font-family:'Cormorant Garamond',serif;font-size:22px;font-style:italic;font-weight:300;color:${accentColor};line-height:1">${year}</div>
-    <div style="font-family:'Cormorant Garamond',serif;font-size:30px;font-weight:300;color:#fff;margin-top:4px">${name}</div>`;
+    <div style="font-family:'Cormorant Garamond','Noto Serif TC',serif;font-size:22px;font-style:italic;font-weight:300;color:${accentColor};line-height:1">${year}</div>
+    <div style="font-family:'Cormorant Garamond','Noto Serif TC',serif;font-size:30px;font-weight:300;color:#fff;margin-top:4px">${name}</div>`;
   document.getElementById('moSub').textContent = '推薦酒款 · Recommended Bottles';
   document.getElementById('moBody').innerHTML = recs.length
     ? `<div class="vint-rec-grid">${recs.map(r=>`
@@ -2643,11 +2645,11 @@ function openBrandModal(idx){
         <img src="${b.logo}" alt="${b.name}"
           style="max-width:136px;max-height:70px;object-fit:contain;filter:invert(1) brightness(2);"
           onerror="this.style.display='none'">
-        <div style="font-family:'Cinzel',serif;font-size:8px;letter-spacing:3px;color:rgba(201,168,76,.65);text-transform:uppercase;margin-top:10px;text-align:center;line-height:1.5;">${b.name}</div>
+        <div style="font-family:'Cinzel','Noto Serif TC',serif;font-size:8px;letter-spacing:3px;color:rgba(201,168,76,.65);text-transform:uppercase;margin-top:10px;text-align:center;line-height:1.5;">${b.name}</div>
       </div>`;
   }
   document.getElementById('moTitle').innerHTML = `
-    <div style="font-family:'Cormorant Garamond',serif;font-size:32px;font-weight:300;color:#fff;line-height:1.1">${b.name}</div>
+    <div style="font-family:'Cormorant Garamond','Noto Serif TC',serif;font-size:32px;font-weight:300;color:#fff;line-height:1.1">${b.name}</div>
     <div class="modal-zh">${b.zhName}</div>`;
   document.getElementById('moSub').textContent = b.origin;
   document.getElementById('moBody').innerHTML = `
@@ -2880,26 +2882,65 @@ document.addEventListener('keydown', e=>{
   flex-wrap:wrap;gap:20px;
 }
 .site-footer-logo{
-  font-family:'Cormorant Garamond',serif;font-style:italic;
+  font-family:'Cormorant Garamond','Noto Serif TC',serif;font-style:italic;
   font-size:26px;color:var(--gold);
 }
 .site-footer-sub{
-  font-family:'Cinzel',serif;font-size:9px;letter-spacing:3px;
+  font-family:'Cinzel','Noto Serif TC',serif;font-size:9px;letter-spacing:3px;
   color:rgba(201,168,76,.45);text-transform:uppercase;margin-top:4px;
 }
 .site-footer-links{display:flex;gap:24px;flex-wrap:wrap;align-items:center;}
 .site-footer-links a{
-  font-family:'Cinzel',serif;font-size:9px;letter-spacing:2px;
+  font-family:'Cinzel','Noto Serif TC',serif;font-size:9px;letter-spacing:2px;
   color:rgba(201,168,76,.45);text-decoration:none;text-transform:uppercase;
   transition:color .2s;
 }
 .site-footer-links a:hover{color:var(--gold);}
 .site-footer-copy{
-  font-family:'Cinzel',serif;font-size:9px;
+  font-family:'Cinzel','Noto Serif TC',serif;font-size:9px;
   color:rgba(201,168,76,.3);letter-spacing:1px;width:100%;text-align:right;
   margin-top:8px;border-top:1px solid rgba(201,168,76,.1);padding-top:16px;
 }
 @media(max-width:700px){.site-footer{padding:36px 24px;}.site-footer-copy{text-align:center;}}
+
+/* ══════════════════════════════
+   MOBILE 9:16 PORTRAIT POLISH
+══════════════════════════════ */
+@media(max-width:600px){
+  /* 首頁酒窖場景：完整顯示、不裁切、不溢出 */
+  #page-choose svg{height:auto !important;}
+  #page-choose,#page-choose .cellar-page{min-height:auto !important;}
+}
+@media(max-width:480px){
+  /* 全螢幕頁面改用動態視窗高度，避免網址列收合造成裁切／跳動 */
+  .hero,.choose-page,.detail-page,.barrel-choose-page,.cellar-page,.cellar-photo-page{min-height:100dvh;}
+  /* 頂部導覽列留安全邊距（避開瀏海／圓角） */
+  .top-nav{padding-left:max(12px,env(safe-area-inset-left));padding-right:max(12px,env(safe-area-inset-right));}
+
+  /* 區塊內距收緊 */
+  .content-area{padding:40px 18px 64px;}
+  .choose-page{padding:56px 20px;}
+  .detail-hero{padding:28px 18px;}
+
+  /* 過寬的字間距在窄螢幕會溢出，稍微收斂 */
+  .hero-eyebrow,.choose-sub{letter-spacing:3px;}
+
+  /* 品牌彈窗內層改為直向堆疊 */
+  .modal-inner-layout{grid-template-columns:1fr;gap:20px;}
+  .modal-right-logo{min-height:140px;order:-1;}
+  /* 彈窗標題列改為可換行，避免溢出 */
+  .modal-hd-inner{flex-wrap:wrap;gap:14px;}
+  .modal-hd-logo{width:auto;min-width:84px;min-height:72px;}
+  .modal-body{padding:20px 20px 28px;}
+  .modal-meta{grid-template-columns:1fr;}
+
+  /* 年份推薦卡片改為一排一張 */
+  .vint-rec-grid{grid-template-columns:1fr;}
+
+  /* 餐搭／禮儀列在手機略為收緊 */
+  .food-row,.etq-item{grid-template-columns:64px 1fr;}
+  .food-emoji-cell,.etq-emoji-col{min-width:56px;padding:14px;font-size:26px;}
+}
 </style>
 <footer class="site-footer" id="site-footer">
   <div>
@@ -2941,8 +2982,8 @@ document.addEventListener('keydown', e=>{
         <div style="display:flex;align-items:center;gap:14px;margin-bottom:4px;">
           <div id="extIcon" style="font-size:26px;line-height:1;"></div>
           <div>
-            <h2 id="extTitle" style="font-family:Cormorant Garamond,serif;font-size:24px;font-weight:300;color:#f0e6cc;line-height:1.1"></h2>
-            <div id="extEn" style="font-family:Cinzel,serif;font-size:10px;letter-spacing:3px;color:rgba(201,168,76,.6);margin-top:4px;text-transform:uppercase"></div>
+            <h2 id="extTitle" style="font-family:Cormorant Garamond,'Noto Serif TC',serif;font-size:24px;font-weight:300;color:#f0e6cc;line-height:1.1"></h2>
+            <div id="extEn" style="font-family:Cinzel,'Noto Serif TC',serif;font-size:10px;letter-spacing:3px;color:rgba(201,168,76,.6);margin-top:4px;text-transform:uppercase"></div>
           </div>
         </div>
       </div>
@@ -2957,14 +2998,14 @@ document.addEventListener('keydown', e=>{
         <a id="extGoBtn" href="#" target="_blank" rel="noopener noreferrer"
            onclick="document.getElementById('extLinkModal').classList.remove('open');document.body.style.overflow=''"
            style="display:inline-flex;align-items:center;gap:8px;
-                  font-family:Cinzel,serif;font-size:10px;letter-spacing:3px;text-transform:uppercase;
+                  font-family:Cinzel,'Noto Serif TC',serif;font-size:10px;letter-spacing:3px;text-transform:uppercase;
                   padding:12px 24px;background:rgba(201,168,76,.15);
                   border:1px solid rgba(201,168,76,.5);color:var(--gold-light);
                   text-decoration:none;transition:all .25s;">
           前往網站 ↗
         </a>
         <button onclick="document.getElementById('extLinkModal').classList.remove('open');document.body.style.overflow=''"
-                style="font-family:Cinzel,serif;font-size:10px;letter-spacing:2px;text-transform:uppercase;
+                style="font-family:Cinzel,'Noto Serif TC',serif;font-size:10px;letter-spacing:2px;text-transform:uppercase;
                        padding:12px 20px;background:none;border:1px solid rgba(201,168,76,.2);
                        color:rgba(201,168,76,.5);cursor:pointer;transition:all .25s;">
           取消
